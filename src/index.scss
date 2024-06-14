@@ -1,3 +1,12 @@
 // div {
 //     border: 1px solid black;
 // }
+.container {
+    display: flex;
+    .timeline-container {
+        flex-grow: 1;
+    }
+    .overview-container {
+        flex-grow: 7;
+    }
+}
